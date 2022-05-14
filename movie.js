@@ -4,7 +4,7 @@
 export default function Movie({movie}) {
     return (
         <div>
-            {movie}
+            {movie.name}
         </div>
     )
 }
