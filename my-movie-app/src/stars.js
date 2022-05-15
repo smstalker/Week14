@@ -1,8 +1,3 @@
-
-
-
-
-
 import React, { useState } from 'react'
 import { Rating } from 'react-simple-star-rating'
 
@@ -12,7 +7,7 @@ export default function MyComponent() {
   // Catch Rating value
   const handleRating = (rate) => {
     setRating(rate)
-    // other logic
+
   }
 
   return (
